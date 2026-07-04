@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+#display {
+    
+}
