@@ -15,5 +15,18 @@ body {
 }
 
 #display {
-    
+    grid-column: 1/5;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: center;
+    background: #222;
+    display: flex;
+    font-size: 35px;
+    color: white;
+}
+
+button{
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
 }
